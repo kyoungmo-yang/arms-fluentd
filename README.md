@@ -21,7 +21,7 @@ Or download automated build from public [Docker Hub Registry](https://registry.h
 
 Running
 --------------------------
-Refer to Embian ARMS settings for the enviroments such as DEFAULT_USER, DEFAULT_PASS and HOST_NAME.
+Refer to Embian ARMS for settings the enviroments such as DEFAULT_USER, DEFAULT_PASS and HOST_NAME.
 
     docker run -d --name embian_arms_fluentd -e DEFAULT_USER="arms_user" -e DEFAULT_PASS="arms_pass" -e HOST_NAME="`echo $(/bin/ip route get 8.8.8.8 | /usr/bin/head -1 | /usr/bin/cut -d' ' -f8)`" yjj0309/arms-fluentd-docker:last
 
