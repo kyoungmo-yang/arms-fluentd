@@ -9,6 +9,7 @@ Building
 See [Embian ARMS](https://github.com/kyoungmo-yang/embian-arms-docker).
 
 2. Build and run arms-fluentd-docker image
+
 To create the image `yjj0309/arms-fluentd-docker`, execute the following command on arms-fluentd-docker folder:
 
     docker build -t yjj0309/arms-fluentd-docker:last .
